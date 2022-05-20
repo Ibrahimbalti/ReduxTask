@@ -1,10 +1,11 @@
 import "./App.css";
-
+import Home from "./components/pages/Home";
+import { BrowserRouter } from "react-router-dom";
 function App() {
   return (
-    <div>
-      <h2>Hello sir</h2>
-    </div>
+    <BrowserRouter>
+      <Home />
+    </BrowserRouter>
   );
 }
 

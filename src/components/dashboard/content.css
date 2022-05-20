@@ -1,0 +1,13 @@
+.contetn{
+    flex: 8;
+    /* margin-top: 60px; */
+    /* margin-left:100px; */
+    
+    
+}
+.contentwrapper {
+    padding-top: 90px;
+    padding-left: 500px;
+    padding-right:  600px;
+    padding-bottom: 40px;
+  }
