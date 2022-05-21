@@ -6,7 +6,7 @@ const initialState = {
   error: null,
 };
 
-export default (state = initialState, action) => {
+const formReducer = (state = initialState, action) => {
   switch (action.type) {
     case GET_FORM:
       return {
@@ -32,6 +32,7 @@ export default (state = initialState, action) => {
       };
     default:
       return state;
-      break;
   }
 };
+
+export default formReducer;

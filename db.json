@@ -18,43 +18,43 @@
     },
     {
       "firstname": "Muhammad",
-      "lastname": "rziz",
-      "address": "Skardu",
-      "company": "Student",
-      "telephonenumber": "3480578347",
-      "id": 3
-    },
-    {
-      "firstname": "Muhammad",
       "lastname": "Ismail",
       "address": "Skardu",
       "company": "Student",
+      "telephonenumber": "3480578349",
+      "id": 3
+    },
+    {
+      "firstname": "Khadim",
+      "lastname": "hussain",
+      "address": "Skardu",
+      "company": "Student",
       "telephonenumber": "3480578347",
-      "id": 5
+      "id": 4
     },
     {
       "firstname": "Arman",
       "lastname": "Ali",
       "address": "Skardu",
       "company": "Student",
-      "telephonenumber": "3480578347",
+      "telephonenumber": "3480578354",
+      "id": 5
+    },
+    {
+      "firstname": "Shoaib",
+      "lastname": "Raza",
+      "address": "Islamabad",
+      "company": "pepsi",
+      "telephonenumber": "3480578356",
       "id": 6
     },
     {
-      "firstname": "Ali",
+      "firstname": "usman",
       "lastname": "Ahmad",
       "address": "Skardu",
       "company": "Student",
       "telephonenumber": "3480578347",
       "id": 7
-    },
-    {
-      "firstname": "Khadim",
-      "lastname": "Hussan",
-      "address": "Skardu",
-      "company": "Jubeeli",
-      "telephonenumber": "3480578347",
-      "id": 8
     }
   ]
 }

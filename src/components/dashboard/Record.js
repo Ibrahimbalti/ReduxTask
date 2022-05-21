@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import Table from "@material-ui/core/Table";
 import TableBody from "@material-ui/core/TableBody";
 import TableCell from "@material-ui/core/TableCell";
@@ -12,7 +12,6 @@ import { getFormData } from "../../action/formAction";
 import Preloader from "../layout/Preloader";
 import PropTypes from "prop-types";
 import RecordItem from "./RecordItem";
-import { Typography } from "@material-ui/core";
 const useStyles = makeStyles({
   table: {
     minWidth: 650,
@@ -50,21 +49,11 @@ const Record = ({ formdata: { formdata, loading }, getFormData }) => {
           </TableRow>
         </TableHead>
         <TableBody>
-          {/* {formdata.map((data) => (
-            <TableRow key={data.id}>
-              <TableCell component='th' scope='row'>
-                <span>{data.firstname} </span>
-                {data.lastname}
-              </TableCell>
-              <TableCell align='right'>{data.address}</TableCell>
-              <TableCell align='right'>{data.company}</TableCell>
-              <TableCell align='right'>{data.telephonenumber}</TableCell>
-            </TableRow>
-          ))} */}
-
           {!loading && formdata === null
-            ? null
-            : formdata.map((data) => <RecordItem data={data} key={data.id} />)}
+            ? console.log("Nothing here")
+            : formdata.map((formdata) => (
+                <RecordItem formdata={formdata} key={formdata.id} />
+              ))}
         </TableBody>
       </Table>
     </TableContainer>
