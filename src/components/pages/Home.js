@@ -13,7 +13,6 @@ const Home = () => {
         <Sidebar />
         <Content />
       </div>
-
       <Footer />
     </>
   );

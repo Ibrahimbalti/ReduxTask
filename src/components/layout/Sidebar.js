@@ -1,7 +1,8 @@
 import React from "react";
 import "./sidebar.css";
-import { RssFeed, Chat } from "@material-ui/icons";
 import { NavLink } from "react-router-dom";
+import ReorderIcon from "@material-ui/icons/Reorder";
+import FormatShapesIcon from "@material-ui/icons/FormatShapes";
 const Sidebar = () => {
   //   const classes = useStyles();
   return (
@@ -10,7 +11,7 @@ const Sidebar = () => {
         <ul className='sidebarlist'>
           <NavLink to='/' style={{ textDecoration: "none", color: "white" }}>
             <li className='sidebarlistitem'>
-              <RssFeed className='sidebaricon' />
+              <FormatShapesIcon className='sidebaricon' />
               <span className='sidebarlistitme'>Form</span>
             </li>
           </NavLink>
@@ -20,7 +21,7 @@ const Sidebar = () => {
             style={{ textDecoration: "none", color: "white" }}
           >
             <li className='sidebarlistitem'>
-              <Chat className='sidebaricon' />
+              <ReorderIcon className='sidebaricon' />
               <span className='sidebarlistitme'>Record</span>
             </li>
           </NavLink>
